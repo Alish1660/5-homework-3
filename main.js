@@ -164,3 +164,20 @@
 //   console.log(ageDiff(arr))
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 50 -misol ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// function singleNumber(arr) {
+//   let new_arr = [];
+//   let result = [];
+//   for (let nums of arr) {
+//     if (!new_arr[nums]) {
+//       new_arr[nums] = 1;
+//     } else {
+//       delete new_arr[nums];
+//     }
+//   }
+//   for (let key in new_arr) {
+//     result.push(Number(key));
+//   }
+//   return result;
+// }
+// let arr = [4, 1, 2, 1, 2, 9];
+// console.log(singleNumber(arr));
